@@ -1,5 +1,5 @@
 # shipment-assignment
-It figures out the most optimal assignment of drivers to a list of shipments destinations, choosing a single driver for each shipment adress, such that no driver is assigned more than once.
+This is a NodeJS application to find out the most optimal assignment of drivers to a list of shipping destinations, choosing a single driver for each shipping address based on their scores and ensuring that no driver is assigned more than once.
 
 ## Introduction
 
@@ -54,7 +54,7 @@ From here, application will read the content from the specified files, and make 
 - Total Suitable Score of the Most Optimal assignment.
 - Matching between shipment destinations and drivers of the Most Optimal assignment.
 
-## Open source libraries implemented
-Librería para el cálculo de factores comunes entre dos números: [compute-gcd](https://www.npmjs.com/package/compute-gcd)
+## Implemented Open source libraries
+Library for the calculation of common factors between two numbers: [compute-gcd](https://www.npmjs.com/package/compute-gcd)
 
-Librería para la implementación del "algoritmo húngaro" o "algoritmo de munkres" [munkres-js](https://www.npmjs.com/package/munkres-js)
+Library for the implementation of the "Hungarian algorithm" or "Munkres algorithm" [munkres-js](https://www.npmjs.com/package/munkres-js)
