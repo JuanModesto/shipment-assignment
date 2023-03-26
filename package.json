@@ -1,0 +1,17 @@
+{
+  "name": "platform-science-juan-modesto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "prod": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compute-gcd": "^1.2.1",
+    "munkres-js": "^1.2.2"
+  }
+}
